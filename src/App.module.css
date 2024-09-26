@@ -1,0 +1,41 @@
+@import "~@fontsource/open-sans";
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  background-color: #fff;
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 6px;
+  align-items: center;
+}
+
+.avatarLogo img {
+  width: 30px;
+  height: 30px;
+}
+
+.avatarLogo div {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #bbb;
+  border-radius: 50% 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatarInfo {
+  margin-left: 9px;
+}
+
+.avatarInfo div:first-child {
+  margin-bottom: 9px;
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    padding: 0 9px;
+    border-bottom: 1px solid #DDD;
+}
+.logo {
+    color: #ff9b00;
+    flex-basis: 20%;
+}
+
+.menu {
+    display: flex;
+    flex-basis: 70%;
+}
+
+.menu .menuItem a{
+    margin: 0 9px;
+    text-decoration: none;
+}
+
+.logout {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+    flex-basis: 10%;
+    color: #ff9b00;
+    cursor: pointer;
+}
